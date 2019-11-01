@@ -22,14 +22,19 @@
 ## 如何运行
 
 代码集中含有超过100+测试涵盖了全部重要供应链金融业务场景，执行以下步骤可在 [Truffle Suite] 智能合约开发套件中运行对智能合约集的各功能测试：
-1. 安装 [Truffle Ganache](https://www.trufflesuite.com/ganache) 
+
+操作系统：支持 MacOS, Linux
+
+1. 安装 [Ganache](https://www.trufflesuite.com/ganache) 
 2. 安装 [NodeJS](https://nodejs.org/en/) 
-2. 启动 Ganache，在本地启动测试用的以太坊私链，在"设置"中的"CHAIN 菜单" 修改 Gas Limits 为 500000000
-3. 进入项目根目录，安装 NodeJS 依赖包:   
-`$ cd smart-contracts` 
+3. 安装 [Truffle]   
+`$ npm install truffle -g`   
+4. 进入项目根目录，安装 NodeJS 依赖包:   
+`$ cd smart-contracts`  
 `$ npm --registry https://registry.npm.taobao.org install express`  
 `$ npm install`
-4. 运行测试:   
+5. 启动 Ganache，在本地启动测试用的以太坊私链，在"设置"中的"CHAIN 菜单" 修改 Gas Limits 为 500000000
+6. 运行测试:   
 `$ truffle test --network testrpc ./test/mocha.root.level.hooks.js ./test/contracts/*.test.js`
 
 ## 加入我们的社区
@@ -50,4 +55,5 @@
 [秒钛坊]: https://www.sectechio.com
 [Quorum]: https://github.com/jpmorganchase/quorum
 [Truffle Suite]: https://www.trufflesuite.com
+[Truffle]: https://www.trufflesuite.com/truffle
 [license]: https://github.com/sectech-io/smart-contracts/blob/master/LICENSE
