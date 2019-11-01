@@ -1,0 +1,7 @@
+{
+  "presets": ["latest"],
+  "plugins": [],
+  "comments": false,
+  "sourceMaps": true,
+  "retainLines": true
+}

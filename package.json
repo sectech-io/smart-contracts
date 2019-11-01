@@ -1,0 +1,31 @@
+{
+  "name": "sechain-contract-deployer",
+  "version": "2.0.5",
+  "description": "Secure Smart Contract library for Solidity",
+  "scripts": {},
+  "dependencies": {
+    "ali-oss": "^5.2.0",
+    "async": "^2.6.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-module-resolver": "^2.2.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.6.1",
+    "co": "^4.6.0",
+    "ethereumjs-util": "^5.2.0",
+    "git-rev": "^0.2.1",
+    "log4js": "^2.7.0",
+    "mocha-logger": "^1.0.6",
+    "moment": "^2.22.2",
+    "uuid": "^3.2.1",
+    "web3": "1.0.0-beta.34",
+    "web3-utils": "1.0.0-beta.34",
+    "web3-eth-abi": "1.0.0-beta.34"
+  },
+  "devDependencies": {}
+}

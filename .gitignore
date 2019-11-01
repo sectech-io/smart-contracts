@@ -1,0 +1,8 @@
+/.idea
+/build
+/contracts/.DS_Store
+/node_modules
+/package-lock.json
+.node-xmlhttprequest*
+/global-contracts-addr.json
+.DS_Store
